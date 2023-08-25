@@ -13,6 +13,7 @@ services:
       - OPENAI_ORG_ID=$OPENAI_ORG_ID
       - HIDE_USER_API_KEY=$HIDE_USER_API_KEY
       - DISABLE_GPT4=$DISABLE_GPT4
+        OPENAI_API_BASE_URL: https://gpt.yxuz.com/
 
   chatgpt-next-web-proxy: 
     profiles: ["proxy"]
